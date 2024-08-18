@@ -4,11 +4,11 @@ import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
 import nodemailer from "nodemailer";
-
-import authRoutes from "./auth.js";
-import productRoutes from "./products.js";
-import { connectDB } from "./db.js";
 import dotenv from "dotenv";
+
+import authRoutes from "../auth.js";
+import productRoutes from "../products.js";
+import { connectDB } from "../db.js";
 
 dotenv.config();
 
